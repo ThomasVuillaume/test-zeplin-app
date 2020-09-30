@@ -1,0 +1,19 @@
+{
+    "plugins": [
+        {
+            "name": "@zeplin/cli-connect-react-plugin"
+        }
+    ],
+    "projects": [],
+    "styleguides": [
+        "5f748b9126b7a5614ee49fee"
+    ],
+    "components": [
+        {
+            "path": "src/components/awesomeButton.jsx",
+            "zeplinNames": [
+                "Rectangle 1"
+            ]
+        }
+    ]
+}
