@@ -2,6 +2,13 @@
     "plugins": [
         {
             "name": "@zeplin/cli-connect-react-plugin"
+        },
+        {
+            "name": "@zeplin/cli-connect-storybook-plugin",
+            "config": {
+                "url": "http://localhost:6006",
+                "startScript": "storybook"
+            }
         }
     ],
     "projects": [],
@@ -10,9 +17,9 @@
     ],
     "components": [
         {
-            "path": "src/components/awesomeButton.jsx",
+            "path": "src/components/AwesomeButton.jsx",
             "zeplinNames": [
-                "Rectangle 1"
+                "Button"
             ]
         }
     ]

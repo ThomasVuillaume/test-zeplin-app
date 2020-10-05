@@ -1,0 +1,45 @@
+.awesome-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  background-color: #1ea7fd;
+}
+.awesome-button--primary {
+  color: white;
+  background-color: #1ea7fd;
+}
+.awesome-button--secondary {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.awesome-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.awesome-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.awesome-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .awesome-button {
+    animation: awesome-button-spin infinite 20s linear;
+  }
+}
+@keyframes awesome-button-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
