@@ -6,7 +6,7 @@
   cursor: pointer;
   display: inline-block;
   line-height: 1;
-  background-color: #1ea7fd;
+  background-color: green;
 }
 .awesome-button--primary {
   color: white;
